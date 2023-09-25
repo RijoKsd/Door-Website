@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF5E14;
+    --primary: #b02028;
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #02245B;
@@ -184,6 +184,15 @@ h6,
         visibility: visible;
         transition: .5s;
         opacity: 1;
+    }
+}
+@media(max-width:767px){
+    .navbar .navbar-brand {
+        padding-right: 1;
+    }
+    
+    .navbar .navbar-brand h1{
+        font-size: 20px;
     }
 }
 
