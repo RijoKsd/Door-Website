@@ -23,6 +23,15 @@
     }
   });
 
+  // Floating whatsapp
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      $(".whatsapp_float").fadeIn("slow");
+    } else {
+      $(".whatsapp_float").fadeOut("slow");
+    }
+  });
+
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -41,7 +50,6 @@
   $(".btn-play").click(function () {
     $videoSrc = $(this).data("src");
   });
-  console.log($videoSrc);
   $("#videoModal").on("shown.bs.modal", function (e) {
     $("#video").attr(
       "src",
@@ -88,6 +96,4 @@
       },
     },
   });
-
-
 })(jQuery);
