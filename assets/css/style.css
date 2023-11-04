@@ -282,6 +282,13 @@ h6,
   color: var(--light);
 }
 
+/*** About ***/
+@media(max-width: 767px){
+   .about-email h5{
+    font-size: 1rem;
+   }
+}
+
 /*** Facts ***/
 .facts {
   position: relative;
