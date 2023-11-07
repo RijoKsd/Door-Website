@@ -532,8 +532,12 @@ h6,
 
 .project-item .img-fluid{
   height: 100%;
-
 }
+
+.project-item .img-fluid:hover{
+  transform: scale(1.1);
+}
+
 
 .project-carousel .owl-nav {
   position: absolute;
