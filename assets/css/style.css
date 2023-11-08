@@ -199,12 +199,10 @@ h6,
   }
 }
 @media (max-width: 767px) {
-  .navbar .navbar-brand {
-    padding-right: 1;
-  }
+  
 
   .navbar .navbar-brand h1 {
-    font-size: 20px;
+    font-size: 1rem;
   }
 }
 
