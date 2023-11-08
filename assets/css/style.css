@@ -282,7 +282,7 @@ h6,
 
 /*** About ***/
 @media(max-width: 767px){
-   .about-email h5{
+   .about-email h5, .about-phone h5{
     font-size: 1rem;
    }
 }
