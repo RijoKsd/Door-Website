@@ -285,6 +285,14 @@ h6,
    .about-email h5, .about-phone h5{
     font-size: 1rem;
    }
+   #hero-title, #hero-content{
+    margin-bottom:10px !important;
+   }
+   #hero-title + #hero-content{
+    line-height: 1.8rem !important;
+    font-size: 1rem !important;
+
+  }
 }
 
 /*** Facts ***/
